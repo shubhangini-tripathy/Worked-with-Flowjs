@@ -1,4 +1,4 @@
-// @flow
+
 
 let name: string = 'shubhi'
 let users: string[] = ['shubhi', 'dhdhk']
@@ -26,7 +26,7 @@ console.log(checkType('shubhi'));
 interface cellObject  {
     cell: string,
     factor: number,
-    type: number
+    type: string
 }
 interface WorksheetObject {
     worksheetName: string,
